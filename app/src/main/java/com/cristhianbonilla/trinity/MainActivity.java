@@ -1,4 +1,4 @@
-package com.cristhianbonilla.trinity.features.login;
+package com.cristhianbonilla.trinity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
