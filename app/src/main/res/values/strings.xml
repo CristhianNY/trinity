@@ -6,4 +6,5 @@
     <string name="hint_login_password">Contraseña</string>
     <string name="login_forgot_password">¿Olvidó su contraseña?</string>
     <string name="enter">Iniciar Sesión</string>
+    <string name="title_activity_home_ativity">HomeAtivity</string>
 </resources>
