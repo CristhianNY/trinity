@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_collapseMode="pin"
+    android:background="@color/dark_blue"
+    android:elevation="4dp"
+    style="@style/AppTheme">
+    <LinearLayout
+        android:id="@+id/easyRentingLogo"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iconApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue"
+            android:src="@drawable/ic_launcher_background" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">trinity</string>
+    <string name="title_activity_main">Main</string>
+    <string name="login_text_access">Acceso</string>
+    <string name="hint_login_user">Usuario</string>
+    <string name="hint_login_password">Contraseña</string>
+    <string name="login_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="enter">Iniciar Sesión</string>
+</resources>

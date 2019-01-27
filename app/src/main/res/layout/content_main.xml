@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:weightSum="5">
+    <include
+        layout="@layout/toolbar_main_layout" />
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:padding="20dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/CardViewContent"
+        android:layout_weight="3">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_cardview_padding_10">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_text_access"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:textSize="24sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/dark_blue" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/light_gray"
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    style="@style/ButtonPositive"
+                    android:backgroundTint="@drawable/button_rounded_corners"
+                    android:text="@string/enter"
+                    android:textAllCaps="false"
+                    android:layout_alignParentBottom="true" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:minWidth="25px"
+                    android:minHeight="25px" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
