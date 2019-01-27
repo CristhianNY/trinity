@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505551437025",
+    "firebase_url": "https://trinity-f8400.firebaseio.com",
+    "project_id": "trinity-f8400",
+    "storage_bucket": "trinity-f8400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505551437025:android:f5602384ed295180",
+        "android_client_info": {
+          "package_name": "com.cristhianbonilla.trinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505551437025-401e5osl4o8rfq2o2c6d37fiu3atpk56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristhianbonilla.trinity",
+            "certificate_hash": "4e42d123b2f75bde67501cddb44678814533f6ef"
+          }
+        },
+        {
+          "client_id": "505551437025-bhnufleaq7aan8rgv338i1mc7i4jbik7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebwvdZIMlitiKdlg93ZlXW0UXK5aQUPo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505551437025-bhnufleaq7aan8rgv338i1mc7i4jbik7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
