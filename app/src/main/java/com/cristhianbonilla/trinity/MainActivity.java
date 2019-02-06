@@ -99,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
     }
 mal
+    malo2
+        
     private void  getHash(){
         try {
             PackageInfo info =  getPackageManager().getPackageInfo("com.cristhianbonilla.trinity",  PackageManager.GET_SIGNATURES);
