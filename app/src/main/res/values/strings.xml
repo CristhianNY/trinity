@@ -7,4 +7,6 @@
     <string name="login_forgot_password">¿Olvidó su contraseña?</string>
     <string name="enter">Iniciar Sesión</string>
     <string name="title_activity_home_ativity">HomeAtivity</string>
+    <string name="facebook_app_id">775159532860078</string>
+    <string name="fb_login_protocol_scheme">fb775159532860078</string>
 </resources>

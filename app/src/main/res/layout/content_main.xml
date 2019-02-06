@@ -46,16 +46,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-                <Button
-                    android:id="@+id/btnLogin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/buttonFacebookLogin"
                     android:elevation="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     style="@style/ButtonPositive"
-                    android:backgroundTint="@drawable/button_rounded_corners"
-                    android:text="@string/enter"
                     android:textAllCaps="false"
-                    android:layout_alignParentBottom="true" />
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentBottom="true"
+                    />
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_height="match_parent"
