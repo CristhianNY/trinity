@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     }
 mal
     malo2
-        
+        malo 3
     private void  getHash(){
         try {
             PackageInfo info =  getPackageManager().getPackageInfo("com.cristhianbonilla.trinity",  PackageManager.GET_SIGNATURES);
