@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         // Pass the activity result back to the Facebook SDK
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
     }
-
+mal
     private void  getHash(){
         try {
             PackageInfo info =  getPackageManager().getPackageInfo("com.cristhianbonilla.trinity",  PackageManager.GET_SIGNATURES);
